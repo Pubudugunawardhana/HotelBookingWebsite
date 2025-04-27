@@ -606,8 +606,8 @@
     <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">REACH US</h2>
 
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded">
+        <div class="row p-2">
+            <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded ">
               <iframe class="w-100 rounded" height="420" src ="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34209.93681584699!2d80.40440930598652!3d5.96166810812034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae13f7454a9ba55%3A0xcfe37ec93c0a68c2!2sMirissa%20360!5e0!3m2!1sen!2slk!4v1745770355807!5m2!1sen!2slk" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="col-lg-4 col-md-4">
@@ -657,10 +657,51 @@
         </div>
     </div>
 
+    <!-- Footer Design-->
 
+    <div class="container-fluid bg-white mt-5 ">
+        <div class="row ">
+            <div class="col-lg-4 p-4">
+               <h3 class="h-font fw-bold fs-3 mb-2">Mirissa 360</h3>
+               <p>Located in the heart of Mirissa in Sri Lanka, Mirissa 360 offers a comfortable and convenient stay for both business and leisure travelers. 
+                Enjoy dining at our restaurant, relax by the spa, or explore nearby attractions.We look forward to welcoming you!</p>
+            </div>
 
-    <br><br><br>
-    <br><br><br>
+            <div class="col-lg-4 p-4">
+                <h5 class="mb-3">Links</h5>
+                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">Home</a><br>
+                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">Rooms</a><br>
+                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">Facilities</a><br>
+                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">Contact us</a><br>
+                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">About</a><br>
+                
+            </div>
+
+            <div class="col-lg-4 p-4">
+                <h5 class="mb-3">Follow us</h5>
+                <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+                <i class="bi bi-facebook me-1"></i> Facebook
+                </a>
+                <br>
+                <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+                <i class="bi bi-instagram me-1"></i> Instagram
+                </a>
+                <br>
+                <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+                <i class="bi bi-whatsapp me-1"></i> Whatsapp
+                </a>
+                <br>
+                <a href="#" class="d-inline-block text-dark text-decoration-none ">
+                <i class="bi bi-youtube me-1"></i> Youtube
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <h6 class="text-center bg-dark text-white p-3 m-0">© 2025 Developed by UWU. All rights reserved.</h6>
+
+    <br><br>
 
 
 
