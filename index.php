@@ -483,6 +483,36 @@
         </div>
     </div>
 
+     <!-- Our Facilities -->
+     <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Our FACILITIES</h2>
+     <div class = "container">
+        <div class="row justify-content-evenly px-lg-0 px-md-0 px-5">
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                <img src="Images/facilities/IMG_43553.svg" width="80px">
+                <h5 class="mt-2">Free Wi-Fi</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                <img src="Images/facilities/IMG_49949.svg" width="80px">
+                <h5 class="mt-2">AC</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                <img src="Images/facilities/IMG_41622.svg" width="80px">
+                <h5 class="mt-2">Telivision</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                <img src="Images/facilities/IMG_47816.svg" width="80px">
+                <h5 class="mt-2">Spa</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                <img src="Images/facilities/IMG_96423.svg" width="80px">
+                <h5 class="mt-2">Room heater</h5>
+            </div>
+
+        </div>
+        
+     </div>
+
+
     <br><br><br>
     <br><br><br>
 
