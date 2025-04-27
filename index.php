@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel ="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/common.css" />
 
     <style>
         .availability-form {
@@ -331,16 +331,16 @@
 
                         </div>
 
-                        <div class ="d-flex justify-content-evenly mb-2">
+                        <div class="d-flex justify-content-evenly mb-2">
                             <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
                             <a href="#" class="btn btn-sm btn-outline-dark shadow-none">More datails</a>
 
                         </div>
 
-                    
 
 
-                        
+
+
                     </div>
                 </div>
             </div>
@@ -397,16 +397,16 @@
 
                         </div>
 
-                        <div class ="d-flex justify-content-evenly mb-2">
+                        <div class="d-flex justify-content-evenly mb-2">
                             <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
                             <a href="#" class="btn btn-sm btn-outline-dark shadow-none">More datails</a>
 
                         </div>
 
-                    
 
 
-                        
+
+
                     </div>
                 </div>
             </div>
@@ -463,16 +463,16 @@
 
                         </div>
 
-                        <div class ="d-flex justify-content-evenly mb-2">
+                        <div class="d-flex justify-content-evenly mb-2">
                             <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
                             <a href="#" class="btn btn-sm btn-outline-dark shadow-none">More datails</a>
 
                         </div>
 
-                    
 
 
-                        
+
+
                     </div>
                 </div>
             </div>
@@ -483,9 +483,10 @@
         </div>
     </div>
 
-     <!-- Our Facilities -->
-     <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Our FACILITIES</h2>
-     <div class = "container">
+    <!-- Our Facilities -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Our FACILITIES</h2>
+
+    <div class="container">
         <div class="row justify-content-evenly px-lg-0 px-md-0 px-5">
             <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
                 <img src="Images/facilities/IMG_43553.svg" width="80px">
@@ -508,9 +509,99 @@
                 <h5 class="mt-2">Room heater</h5>
             </div>
 
+            <div class="col-lg-12 text-center mt-5">
+                <a href="#" class="btn btn-outline-dark rounded-0 fw-bold shadow-none">OUR FACILITIES>>></a>
+            </div>
+
         </div>
-        
-     </div>
+
+    </div>
+
+    <!-- Testimonials -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">TESTIMONIALS</h2>
+
+    <div class="container mt-5">
+        <div class="swiper mySwiper-testimonials">
+            <div class="swiper-wrapper mb-5">
+                <div class="swiper-slide bg-white p-4">
+                    <div class="profile d-flex align-items-center mb-3">
+                        <img src="Images/features/person4.jpg" width="30px">
+                        <h6 class="m-0 ms-2">Mr.Rajapaksha</h6>
+
+                    </div>
+                    <p>"One of the best hotel experiences I've had! The food at the in-house restaurant was fantastic, and the spa treatments were heavenly. Loved how friendly and helpful all the staff were. Definitely recommending this place to all my friends!"</p>
+
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide bg-white p-4">
+                    <div class="profile d-flex align-items-center mb-3">
+                        <img src="Images/features/person1.jpg" width="30px">
+                        <h6 class="m-0 ms-2">Mr.Gunawrdhana</h6>
+
+                    </div>
+                    <p>"Absolutely loved our stay! The staff were incredibly welcoming and the room was spotless. We especially enjoyed the rooftop pool — the view was breathtaking! Breakfast was delicious too. Highly recommend for anyone looking for a relaxing getaway." </p>
+
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide bg-white p-4">
+                    <div class="profile d-flex align-items-center mb-3">
+                        <img src="Images/features/person2.avif" width="30px">
+                        <h6 class="m-0 ms-2">Miss.Samarakoon</h6>
+
+                    </div>
+                    <p>"Great location, right in the heart of the city. Easy access to restaurants and shops. Room was cozy and had everything I needed. Only reason I'm giving 4 stars instead of 5 is the Wi-Fi could have been a bit faster. Overall, very happy with my stay!" </p>
+
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <!-- <i class="bi bi-star-fill text-warning"></i> -->
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide bg-white p-4">
+                    <div class="profile d-flex align-items-center mb-3">
+                        <img src="Images/features/person3.avif" width="30px">
+                        <h6 class="m-0 ms-2">Miss.Dilini</h6>
+
+                    </div>
+                    <p>"From check-in to check-out, everything was perfect! The attention to detail was amazing — from the little chocolates on the pillows to the beautiful spa facilities. It felt like a true luxury experience. Can’t wait to come back!" </p>
+
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
 
 
     <br><br><br>
@@ -538,6 +629,37 @@
                 el: ".swiper-pagination",
                 clickable: true,
             },
+        });
+
+
+        var swiper = new Swiper(".mySwiper-testimonials", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            slidesPerView:"3",
+            loop:true,
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            breakpoints:{
+                320:{
+                    slidesPerView:1,
+                },
+                640:{
+                    slidesPerView:3,
+                },
+                1024:{
+                    slidesPerView:3,
+                },
+            }
         });
     </script>
 
