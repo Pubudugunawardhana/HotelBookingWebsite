@@ -50,9 +50,9 @@ require ('inc/db_config.php');
    
    if($res->num_rows==1){
      $row =mysqli_fetch_assoc($res);
-     session_star();
+     session_start();
      $_SESSION['adminLogin']=true;
-     $_SESSION['adminId']= $row[sr_no];
+     $_SESSION['adminId']= $row['sr_no'];
      redirect('dashboard.php');
      
    
