@@ -34,11 +34,29 @@
         input[type=number] {
             -moz-appearance: textfield;
         }
+        .custom-bg{
+            background-color: #2eccac;
+        }
+        .custom-bg:hover{
+            background-color: #279e8c;
+        }
+        .availability-form {
+                margin-top: -50px;
+                z-index: 2;
+                position: relative;
+            }
+        
+        @media (max-width: 575px) {
+            .availability-form {
+                margin-top: 20px;
+                padding: 0 35px;
+            }
+        }
     </style>
 
 </head>
 
-<body class ="bg-light">
+<body class="bg-light">
 
 
     <nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
@@ -203,6 +221,7 @@
 
     </div>
 
+    <!-- Carousel  -->
 
     <div class="container-fluid px-lg-4 mt-4">
         <!-- Swiper -->
@@ -211,7 +230,7 @@
                 <div class="swiper-slide">
                     <img src="Images/carousel/IMG_15372.png">
                 </div>
-                <div class= "swiper-slide">
+                <div class="swiper-slide">
                     <img src="Images/carousel/IMG_40905.png" />
                 </div>
                 <div class="swiper-slide">
@@ -220,7 +239,7 @@
                 <div class="swiper-slide">
                     <img src="Images/carousel/IMG_62045.png" />
                 </div>
-                
+
                 <div class="swiper-slide">
                     <img src="Images/carousel/IMG_93127.png" />
                 </div>
@@ -234,29 +253,78 @@
         </div>
     </div>
 
+    <!-- check availability form -->
+
+    <div class="container avalability-form">
+        <div class="row">
+            <div class="col-lg-12 bg-white shadow p-4 rounded">
+                <h5 class="mb-4">Check Booking Availability</h5>
+                <form>
+                    <div class="row align-items-end">
+                        <div class="col-lg-3 mb-3">
+                            <label class="form-label" style="font-weight: 500;">Check-in</label>
+                            <input type="date" class="form-control shadow-none">
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                            <label class="form-label" style="font-weight: 500;">Check-out</label>
+                            <input type="date" class="form-control shadow-none">
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                            <label class="form-label" style="font-weight: 500;">Adult</label>
+                            <select class="form-select shadow-none">
+                                <option selected>Select</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+
+                        <div class="col-lg-2 mb-3">
+                            <label class="form-label" style="font-weight: 500;">Children</label>
+                            <select class="form-select shadow-none">
+                                <option selected>Select</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+
+                        <div class="col-lg-1 mb-lg-3 mt-2">
+                            <button type="submit" class="btn text-white shadow-none custom-bg">Submit</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <br><br><br>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-     
+
     <script>
-    var swiper = new Swiper(".mySwiper-container", {
-      spaceBetween: 30,
-      effect: "fade",
-      loop : true,
-        autoplay: {
-            delay: 3500,
-            disableOnInteraction: false,
-        },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script>
+        var swiper = new Swiper(".mySwiper-container", {
+            spaceBetween: 30,
+            effect: "fade",
+            loop: true,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
 
 
 </body>
