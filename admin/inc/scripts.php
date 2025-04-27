@@ -1,0 +1,1 @@
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0bGzLP0cnR0gHc5y8ioh3Jvwz6D+NNf5uaYPxKbgvU3TX4yP" crossorigin="anonymous"></script>
