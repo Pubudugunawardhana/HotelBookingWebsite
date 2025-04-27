@@ -72,7 +72,7 @@
         </div>
     </nav>
 
-    <!-- Modal -->
+    <!-- Modal Login -->
     <div class="modal fade" id="loginModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -109,6 +109,7 @@
         </div>
     </div>
 
+    <!-- Modal Register -->
     <div class="modal fade" id="registerModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
 
         <div class="modal-dialog modal-lg">
