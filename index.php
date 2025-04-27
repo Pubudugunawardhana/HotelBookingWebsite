@@ -602,6 +602,61 @@
         </div>
     </div>
 
+    <!-- Reach us -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">REACH US</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded">
+              <iframe class="w-100 rounded" height="420" src ="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34209.93681584699!2d80.40440930598652!3d5.96166810812034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae13f7454a9ba55%3A0xcfe37ec93c0a68c2!2sMirissa%20360!5e0!3m2!1sen!2slk!4v1745770355807!5m2!1sen!2slk" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-lg-4 col-md-4">
+               <div class="bg-white p-4 rounded mb-4">
+                <h5>Call us</h5>
+                <a href ="tel :+94712345000" class="d-inline-block mb-2 text-decoration-none text-dark"></a>
+                <i class="bi bi-telephone-fill"></i>  +94 712 345 000
+                <br>
+                <a href ="tel :+94712345222" class="d-inline-block mb-2 text-decoration-none text-dark"></a>
+                <i class="bi bi-telephone-fill"></i>  +94 712 345 222
+               </div>
+
+            <div class="bg-white p-4 rounded mb-4">
+               <h5>Follow us</h5>
+            
+                <a href="#" class="d-inline-block mb-3">
+                <span class="badge bg-light text-dark fs-6 p-2 ">
+                <i class="bi bi-facebook me-1"></i> Facebook
+                </span>
+                </a>
+
+                <br>
+
+                <a href="#" class="d-inline-block mb-3">
+                <span class="badge bg-light text-dark fs-6 p-2 ">
+                <i class="bi bi-youtube me-1"></i> Youtube
+                </span>
+                </a>
+
+                <br>
+
+                <a href="#" class="d-inline-block mb-3">
+                <span class="badge bg-light text-dark fs-6 p-2 ">
+                <i class="bi bi-instagram me-1"></i> Instagram
+                </span>
+                </a>
+
+                <br>
+
+                <a href="#" class="d-inline-block mb-3">
+                <span class="badge bg-light text-dark fs-6 p-2 ">
+                <i class="bi bi-whatsapp me-1"></i> Whatsapp
+                </span>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
 
 
     <br><br><br>
