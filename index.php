@@ -6,13 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mirissa 360</title>
 
+    <!-- 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/common.css" /> 
+    -->
+
+    <?php require('inc/links.php'); ?>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/common.css" />
+    
 
     <style>
         .availability-form {
@@ -33,8 +39,9 @@
 
 <body class="bg-light">
 
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
+    
+    <!-- Navbar / Modal Login /Modal Register -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand me-5 fw-b0ld fs-3 h-font" href="index.php">Mirissa 360</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,8 +67,7 @@
 
                 </ul>
                 <div class="d-flex">
-                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-                    <!-- <button class="btn btn-outline-success shadow-none" type="submit">Search</button> -->
+                    
                     <button type="button" class="btn btn-outline-dark shadow-none me-lg-3 me-2" data-bs-toggle="modal" data-bs-target="#loginModel">Login</button>
                     <button type="button" class="btn btn-outline-dark shadow-none " data-bs-toggle="modal" data-bs-target="#registerModel">Register</button>
 
@@ -72,7 +78,7 @@
         </div>
     </nav>
 
-    <!-- Modal Login -->
+     
     <div class="modal fade" id="loginModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -107,9 +113,9 @@
 
             </div>
         </div>
-    </div>
+    </div> 
 
-    <!-- Modal Register -->
+    
     <div class="modal fade" id="registerModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
 
         <div class="modal-dialog modal-lg">
@@ -195,7 +201,10 @@
             </div>
         </div>
 
-    </div>
+    </div>  -->
+
+    <?php require('inc/header.php');?>
+    
 
     <!-- Carousel  -->
 
@@ -660,7 +669,7 @@
 
     <!-- Footer Design-->
 
-    <div class="container-fluid bg-white mt-5 ">
+    <!-- <div class="container-fluid bg-white mt-5 ">
         <div class="row ">
             <div class="col-lg-4 p-4">
                <h3 class="h-font fw-bold fs-3 mb-2">Mirissa 360</h3>
@@ -700,13 +709,13 @@
         </div>
     </div>
 
-    <h6 class="text-center bg-dark text-white p-3 m-0">© 2025 Developed by UWU. All rights reserved.</h6>
+    <h6 class="text-center bg-dark text-white p-3 m-0">© 2025 Developed by UWU. All rights reserved.</h6> -->
+    <?php require('inc/footer.php');?>
 
     <br><br>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
