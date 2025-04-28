@@ -64,60 +64,60 @@
             <div class="col-lg-4 col-md-6 mb-5 px-4">
                 <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop">
                     <div class="d-flex align-items-center mb-2">
-                        <img src="Images/facilities/IMG_43553.svg" width="40px">
-                        <h5 class="m-0 ms-3">Wifi</h5>
+                        <img src="Images/facilities/IMG_49949.svg" width="40px">
+                        <h5 class="m-0 ms-3">Air Conditioning</h5>
                     </div>
 
                     
-                    <p>Stay connected with fast, free Wi-Fi available throughout the hotel — in your room, lobby, and even by the pool and spa.</p>
+                    <p>Enjoy a cool and comfortable stay with individually controlled air conditioning in all guest rooms and common areas.</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mb-5 px-4">
                 <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop">
                     <div class="d-flex align-items-center mb-2">
-                        <img src="Images/facilities/IMG_43553.svg" width="40px">
-                        <h5 class="m-0 ms-3">Wifi</h5>
+                        <img src="Images/facilities/IMG_41622.svg" width="40px">
+                        <h5 class="m-0 ms-3">Telivision</h5>
                     </div>
 
                     
-                    <p>Stay connected with fast, free Wi-Fi available throughout the hotel — in your room, lobby, and even by the pool and spa.</p>
+                    <p>Relax with a wide selection of local and international channels on our flat-screen TVs, available in every room.</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mb-5 px-4">
                 <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop">
                     <div class="d-flex align-items-center mb-2">
-                        <img src="Images/facilities/IMG_43553.svg" width="40px">
-                        <h5 class="m-0 ms-3">Wifi</h5>
+                        <img src="Images/facilities/IMG_96423.svg" width="40px">
+                        <h5 class="m-0 ms-3">Room Heater</h5>
                     </div>
 
                     
-                    <p>Stay connected with fast, free Wi-Fi available throughout the hotel — in your room, lobby, and even by the pool and spa.</p>
+                    <p>Stay warm and cozy with our in-room heating system, ensuring perfect comfort during cooler days.</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mb-5 px-4">
                 <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop">
                     <div class="d-flex align-items-center mb-2">
-                        <img src="Images/facilities/IMG_43553.svg" width="40px">
-                        <h5 class="m-0 ms-3">Wifi</h5>
+                        <img src="Images/facilities/IMG_27079.svg" width="40px">
+                        <h5 class="m-0 ms-3">Fire Alarm System</h5>
                     </div>
 
                     
-                    <p>Stay connected with fast, free Wi-Fi available throughout the hotel — in your room, lobby, and even by the pool and spa.</p>
+                    <p>Your safety is our priority. Our advanced fire alarm system is installed throughout the hotel to ensure prompt alerts and peace of mind.</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mb-5 px-4">
                 <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop">
                     <div class="d-flex align-items-center mb-2">
-                        <img src="Images/facilities/IMG_43553.svg" width="40px">
-                        <h5 class="m-0 ms-3">Wifi</h5>
+                        <img src="Images/facilities/IMG_47816.svg" width="40px">
+                        <h5 class="m-0 ms-3">Spa</h5>
                     </div>
 
                     
-                    <p>Stay connected with fast, free Wi-Fi available throughout the hotel — in your room, lobby, and even by the pool and spa.</p>
+                    <p>Indulge in ultimate relaxation with our luxurious spa services, offering rejuvenating treatments, massages, and wellness therapies.</p>
                 </div>
             </div>
 
