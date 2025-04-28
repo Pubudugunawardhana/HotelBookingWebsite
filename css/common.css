@@ -1,3 +1,10 @@
+
+:root{
+    --teal:#2eccac;
+    --teal_hover:#279e8c;
+}
+
+
 * {
     font-family: 'Poppins', sans-serif;
 }
@@ -21,17 +28,23 @@ input[type=number] {
 }
 
 .custom-bg {
-    background-color: #2eccac;
-    border: 1px solid #2eccac;
+    background-color: var(--teal);
+    border: 1px solid var(--teal);
 }
 
 .custom-bg:hover {
-    background-color: #279e8c;
-    border-color: #279e8c;
+    background-color: var(--teal_hover);
+    border-color: var(--teal_hover);
 }
 
 .availability-form {
     margin-top: -50px;
     z-index: 2;
     position: relative;
+}
+
+.h-line{
+    width :150px;
+    margin : 0 auto;
+    height : 1.7px
 }
