@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mirissa 360</title>
+    <title>Mirissa 360 - HOME</title>
 
     <!-- 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -325,6 +325,15 @@
                                 Room heater
                             </span>
                         </div>
+                        <div class="guests mb-4">
+                            <h6 class="mb-1">Guests</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                2 Adults
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                
+                            </span>
+                        </div>  
 
                         <div class="rating mb-4">
                             <h6 class="mb-1">Rating</h6>
@@ -392,6 +401,16 @@
                             </span>
                         </div>
 
+                        <div class="guests mb-4">
+                            <h6 class="mb-1">Guests</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                2 Adults
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                1 Child
+                            </span>
+                        </div>  
+
                         <div class="rating mb-4">
                             <h6 class="mb-1">Rating</h6>
                             <span class="badge rounded-pill bg-light">
@@ -457,6 +476,16 @@
                                 Room heater
                             </span>
                         </div>
+
+                        <div class="guests mb-4">
+                            <h6 class="mb-1">Guests</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                2 Adults
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                2 Children
+                            </span>
+                        </div>  
 
                         <div class="rating mb-4">
                             <h6 class="mb-1">Rating</h6>
@@ -761,6 +790,9 @@
                 },
                 640:{
                     slidesPerView:3,
+                },
+                768:{
+                    slidesPerView:2,
                 },
                 1024:{
                     slidesPerView:3,
