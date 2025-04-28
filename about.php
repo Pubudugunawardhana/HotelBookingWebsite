@@ -15,6 +15,11 @@
         .box {
             border-top-color: var(--teal) !important;
         }
+        .pop:hover {
+            border-top-color: var(--teal) !important;
+            transform: scale(1.03);
+            transition: all 0.3s;
+        }
     </style>
 
 
@@ -59,7 +64,7 @@
 
     <div class="container mt-5">
         <div class="row">
-            <div class="col-lg-3 col-md-6 mb-4 px-4">
+            <div class="col-lg-3 col-md-6 mb-4 px-4 pop">
                 <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
                     <img src="Images/about/hotel.svg" width="70px">
                     <h4 class="mt-3">100+ ROOMS</h4>
@@ -67,7 +72,7 @@
 
             </div>
 
-            <div class="col-lg-3 col-md-6 mb-4 px-4">
+            <div class="col-lg-3 col-md-6 mb-4 px-4 pop">
                 <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
                     <img src="Images/about/customers.svg" width="70px">
                     <h4 class="mt-3">1000+ CUSTOMERS</h4>
@@ -75,7 +80,7 @@
 
             </div>
 
-            <div class="col-lg-3 col-md-6 mb-4 px-4">
+            <div class="col-lg-3 col-md-6 mb-4 px-4 pop">
                 <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
                     <img src="Images/about/rating.svg" width="70px">
                     <h4 class="mt-3">500+ REVIEWS</h4>
@@ -83,7 +88,7 @@
 
             </div>
 
-            <div class="col-lg-3 col-md-6 mb-4 px-4">
+            <div class="col-lg-3 col-md-6 mb-4 px-4 pop">
                 <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
                     <img src="Images/about/staff.svg" width="70px">
                     <h4 class="mt-3">200+ STAFF</h4>
