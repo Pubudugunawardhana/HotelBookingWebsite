@@ -1,56 +1,72 @@
-:root{
-    --teal: #2ec1ac;
-    --teal_hover:#279e8c;
+:root {
+    --teal: #2eccac;
+    --teal_hover: #279e8c;
 }
 
-*{
-    font-family: 'Popiings', sans-serif;
+
+* {
+    font-family: 'Poppins', sans-serif;
 }
-.h-font{
+
+.h-font {
     font-family: 'Merienda', cursive;
 }
+
+/* Chrome, Safari, Edge, Opera  (hide input type number arrows)*/
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button{
+input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-input[type=number]{
-    --moz-appearance: textfield;
+
+/* Firefox */
+input[type=number] {
+    /* -moz-appearance: textfield; */
+    appearance: textfield;
+    -moz-appearance: textfield;
 }
-.custom-bg{
+
+.custom-bg {
     background-color: var(--teal);
     border: 1px solid var(--teal);
-    color: white;
 }
 
-.custom-bg:hover{
-    background-color:var(--teal_hover);
-    border-color:var(--teal_hover);
-}
-.h-line{
-    width:150px;
-    margin:0 auto;
-    height:1.7px;
-}
-.custom-alert{
-    position:fixed;
-    top:25px;
-    right:25px;
+.custom-bg:hover {
+    background-color: var(--teal_hover);
+    border-color: var(--teal_hover);
 }
 
-#dashboard-menu{
+.availability-form {
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+}
+
+.h-line {
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px
+}
+
+.custom-alert {
     position: fixed;
-    height:100%;  
+    top: 25px;
+    right: 25px;
 }
 
-@media screen and (max-width:991px){
-    #dashboard-menu{
-    height:auto; 
-    width:100%;
-
-  }
-  #main-content{
-    margin-top: 60px;
-  }
+#dashboard-menu {
+    position: fixed;
+    height: 100%;
 }
 
+@media screen and (max-width:991px) {
+    #dashboard-menu {
+        height: auto;
+        width: 100%;
+
+    }
+
+    #main-content {
+        margin-top: 60px;
+    }                                      
+}
