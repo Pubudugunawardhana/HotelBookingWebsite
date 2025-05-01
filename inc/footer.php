@@ -9,11 +9,11 @@
 
             <div class="col-lg-4 p-4">
                 <h5 class="mb-3">Links</h5>
-                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">Home</a><br>
-                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">Rooms</a><br>
-                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">Facilities</a><br>
-                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">Contact us</a><br>
-                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">About</a><br>
+                <a href="index.php" class="d-inline-block mb-2 text-decoration-none text-dark">Home</a><br>
+                <a href="rooms.php" class="d-inline-block mb-2 text-decoration-none text-dark">Rooms</a><br>
+                <a href="facilities.php" class="d-inline-block mb-2 text-decoration-none text-dark">Facilities</a><br>
+                <a href="contact.php" class="d-inline-block mb-2 text-decoration-none text-dark">Contact us</a><br>
+                <a href="about.php" class="d-inline-block mb-2 text-decoration-none text-dark">About</a><br>
                 
             </div>
 

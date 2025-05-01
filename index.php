@@ -13,6 +13,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/common.css" /> 
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
     -->
 
     <?php require('inc/links.php'); ?>
@@ -21,7 +27,7 @@
     
 
     <style>
-        .availability-form {
+        .avalability-form {
             margin-top: -50px;
             z-index: 2;
             position: relative;
@@ -32,6 +38,12 @@
                 margin-top: 20px;
                 padding: 0 35px;
             }
+        }
+
+        .pop:hover {
+            border-top-color: var(--teal) !important;
+            transform: scale(1.03);
+            transition: all 0.3s;
         }
     </style>
 
@@ -213,28 +225,27 @@
         <div class="swiper mySwiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="Images/carousel/IMG_15372.png">
+                     <img src="Images/carousel/carousel1.jpg" class="w-100 d-block"/>
                 </div>
                 <div class="swiper-slide">
-                    <img src="Images/carousel/IMG_40905.png" />
+                    <img src="Images/carousel/carousel2.jpg" class="w-100 d-block" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="Images/carousel/IMG_55677.png" />
+                    <img src="Images/carousel/carousel3.jpg" class="w-100 d-block" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="Images/carousel/IMG_62045.png" />
-                </div>
-
-                <div class="swiper-slide">
-                    <img src="Images/carousel/IMG_93127.png" />
+                    <img src="Images/carousel/carousel4.jpg" class="w-100 d-block" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="Images/carousel/IMG_99736.png" />
+                    <img src="Images/carousel/carousel5.jpg" class="w-100 d-block" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="Images/carousel/carousel6.jpg" class="w-100 d-block" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="Images/carousel/carousel7.jpg" class="w-100 d-block" />
                 </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
         </div>
     </div>
 
@@ -289,7 +300,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6 my-3">
+            <div class="col-lg-4 col-md-6 my-3 pop">
                 <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
                     <img src="Images/rooms/1.jpg" class="card-img-top">
                     <div class="card-body">
@@ -331,7 +342,7 @@
                                 2 Adults
                             </span>
                             <span class="badge rounded-pill bg-light text-dark text-wrap">
-                                
+                                0 Child
                             </span>
                         </div>  
 
@@ -364,7 +375,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 my-3">
+            <div class="col-lg-4 col-md-6 my-3 pop">
                 <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
                     <img src="Images/rooms/1.jpg" class="card-img-top">
                     <div class="card-body">
@@ -440,7 +451,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 my-3">
+            <div class="col-lg-4 col-md-6 my-3 pop">
                 <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
                     <img src="Images/rooms/1.jpg" class="card-img-top">
                     <div class="card-body">
@@ -526,24 +537,24 @@
     <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Our FACILITIES</h2>
 
     <div class="container">
-        <div class="row justify-content-evenly px-lg-0 px-md-0 px-5">
-            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <div class="row justify-content-evenly px-lg-0 px-md-0 px-5 ">
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3 pop">
                 <img src="Images/facilities/IMG_43553.svg" width="80px">
                 <h5 class="mt-2">Free Wi-Fi</h5>
             </div>
-            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3 pop">
                 <img src="Images/facilities/IMG_49949.svg" width="80px">
                 <h5 class="mt-2">AC</h5>
             </div>
-            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3 pop">
                 <img src="Images/facilities/IMG_41622.svg" width="80px">
                 <h5 class="mt-2">Telivision</h5>
             </div>
-            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3 pop">
                 <img src="Images/facilities/IMG_47816.svg" width="80px">
                 <h5 class="mt-2">Spa</h5>
             </div>
-            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3 pop">
                 <img src="Images/facilities/IMG_96423.svg" width="80px">
                 <h5 class="mt-2">Room heater</h5>
             </div>
@@ -646,8 +657,8 @@
 
     <div class="container">
         <div class="row p-2">
-            <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded ">
-              <iframe class="w-100 rounded" height="420" src ="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34209.93681584699!2d80.40440930598652!3d5.96166810812034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae13f7454a9ba55%3A0xcfe37ec93c0a68c2!2sMirissa%20360!5e0!3m2!1sen!2slk!4v1745770355807!5m2!1sen!2slk" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col-lg-8 col-md-8 p-3 mb-lg-0 mb-3 bg-white rounded shadow">
+              <iframe class="w-100 rounded" height="450" src ="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34209.93681584699!2d80.40440930598652!3d5.96166810812034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae13f7454a9ba55%3A0xcfe37ec93c0a68c2!2sMirissa%20360!5e0!3m2!1sen!2slk!4v1745770355807!5m2!1sen!2slk" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="col-lg-4 col-md-4">
                <div class="bg-white p-4 rounded mb-4">
@@ -744,8 +755,8 @@
     <br><br>
 
 
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 
     <script>
         var swiper = new Swiper(".mySwiper-container", {
@@ -755,15 +766,7 @@
             autoplay: {
                 delay: 3500,
                 disableOnInteraction: false,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
+            }
         });
 
 
