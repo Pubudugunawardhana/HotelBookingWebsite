@@ -2,8 +2,8 @@
 
 $hname='localhost';
 $uname='root';
-$pass='';
-$db='hbwebsite';
+$pass='mysql';
+$db='hotel_booking_website';
 
 $con = mysqli_connect($hname, $uname, $pass, $db);
 
@@ -27,6 +27,7 @@ function filteration($data){
      $con= $GLOBALS['con'];
      if($stmt=mysqli_prepare($con, $sql)){
         mysqli_stmt_bind_param($stmt,$datatypes,...$values);
+
         if(mysqli_stmt_execute($stmt)){
             $res= mysqli_stmt_get_result($stmt);
             mysqli_stmt_close($stmt);
@@ -42,7 +43,9 @@ function filteration($data){
 
     function update($sql, $values, $datatypes){
         $con= $GLOBALS['con'];
-        if($stmt=mysqli_prepare($con, $sql)){
+        if($stmt=mysqli_prepare($con, $sql))
+        {
+
            mysqli_stmt_bind_param($stmt,$datatypes,...$values);
            if(mysqli_stmt_execute($stmt)){
                $res= mysqli_stmt_affected_rows($stmt);
