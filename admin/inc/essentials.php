@@ -7,6 +7,7 @@ function adminLogin(){
 
   }
   session_regenerate_id(true);
+
 }
 
 function redirect($url){
