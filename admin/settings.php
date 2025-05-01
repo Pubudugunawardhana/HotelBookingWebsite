@@ -176,7 +176,8 @@ adminLogin();
     window.onload = function(){
       get_general();
     }
-
+// sachindika
   </script>
 </body>
 </html>
+
