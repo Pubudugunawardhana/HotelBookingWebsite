@@ -20,10 +20,12 @@ session_regenerate_id(true);
 
 <body class="bg-light">
 
+   <!-- Admin panal Hedder -->
 <?php require('inc/header.php'); ?>
 
 <div class="container-fluid" id="main-content">
   <div class="row">
+
     <!-- Dashboard panal body -->
     <div class="col-log-10 ms-auto p-4 overflow-hiddden">
     ...
