@@ -42,11 +42,7 @@ input[type=number] {
     position: relative;
 }
 
-.h-line {
-    width: 150px;
-    margin: 0 auto;
-    height: 1.7px
-}
+
 
 .custom-alert {
     position: fixed;
@@ -59,14 +55,3 @@ input[type=number] {
     height: 100%;
 }
 
-@media screen and (max-width:991px) {
-    #dashboard-menu {
-        height: auto;
-        width: 100%;
-
-    }
-
-    #main-content {
-        margin-top: 60px;
-    }                                      
-}
