@@ -73,13 +73,13 @@
                                 </div>
 
                                 <div class="mb-2">
-                                    <input type="checkbox" id="fl" class="form-check-input shadow-non me-1">
-                                    <label class="form-check-label" for="fl">Facility one</label>
+                                    <input type="checkbox" id="f2" class="form-check-input shadow-non me-1">
+                                    <label class="form-check-label" for="f2">Facility one</label>
                                 </div>
 
                                 <div class="mb-2">
-                                    <input type="checkbox" id="fl" class="form-check-input shadow-non me-1">
-                                    <label class="form-check-label" for="fl">Facility one</label>
+                                    <input type="checkbox" id="f3" class="form-check-input shadow-non me-1">
+                                    <label class="form-check-label" for="f3">Facility one</label>
                                 </div>
 
 
