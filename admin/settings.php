@@ -54,7 +54,7 @@ adminLogin();
                 </div>
                 <div class="mb-3">
                   <label class="form-label">About us</label>
-                  <textarea name="site_about" id="site_about_inp" class="form-control shadow-none" rows="1"></textarea>
+                  <textarea name="site_about" id="site_about_inp" class="form-control shadow-none" rows="5"></textarea>
                 </div>
              </div>
             <div class="modal-footer">
@@ -160,7 +160,7 @@ adminLogin();
 
       xhr.onload = function(){
 
-        if(this.responseText ==1 && general_data.shutdown == 0){
+        if(this.responseText == 1 && general_data.shutdown == 0){
           alert('success','Site has been shutdown!');
          
         }else{
@@ -170,7 +170,7 @@ adminLogin();
         get_general();
       } 
 
-      xhr.send('upd_shutdown=' +val);
+      xhr.send('upd_shutdown='+val);
     }
 
     window.onload = function(){
