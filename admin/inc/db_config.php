@@ -2,8 +2,8 @@
 
 $hname='localhost';
 $uname='root';
-$pass='';
-$db='hbwebsite';
+$pass='mysql';
+$db='hotel_booking_website';
 
 $con = mysqli_connect($hname, $uname, $pass, $db);
 
