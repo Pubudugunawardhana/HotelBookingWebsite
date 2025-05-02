@@ -44,7 +44,7 @@
                 <form action="">
                     <div class="modal-header">
                         <h5 class="modal-title d-flex align-items-center">
-                            <i class="bi bi-person-circle fs-6 me-2 "> User Login</i>
+                            <i class="bi bi-person-circle fs-6 me-2 "> </i>User Login
                         </h5>
                         <button type="reset" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -82,7 +82,7 @@
                 <form>
                     <div class="modal-header">
                         <h5 class="modal-title d-flex align-items-center">
-                            <i class="bi bi-person-lines-fill fs-6 me-2"> User Registration</i>
+                            <i class="bi bi-person-lines-fill fs-6 me-2"> </i>User Registration
 
                         </h5>
                         <button type="reset" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
