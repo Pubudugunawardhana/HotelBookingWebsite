@@ -3,7 +3,6 @@
     --teal_hover: #279e8c;
 }
 
-
 * {
     font-family: 'Poppins', sans-serif;
 }
@@ -12,7 +11,7 @@
     font-family: 'Merienda', cursive;
 }
 
-/* Chrome, Safari, Edge, Opera  (hide input type number arrows)*/
+/* Hide input type number arrows for all browsers */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -21,11 +20,11 @@ input::-webkit-inner-spin-button {
 
 /* Firefox */
 input[type=number] {
-    /* -moz-appearance: textfield; */
     appearance: textfield;
-    -moz-appearance: textfield;
+    -moz-appearance: textfield; /* Firefox fallback */
 }
 
+/* Custom button background */
 .custom-bg {
     background-color: var(--teal);
     border: 1px solid var(--teal);
@@ -36,23 +35,27 @@ input[type=number] {
     border-color: var(--teal_hover);
 }
 
+/* Availability form styling */
 .availability-form {
     margin-top: -50px;
     z-index: 2;
     position: relative;
 }
 
-
-
+/* Custom alert styling */
 .custom-alert {
     position: fixed;
-    top: 25px;
+    top: 80px;
     right: 25px;
+    z-index: 1050; /* Ensure it appears above other elements */
 }
 
+/* Dashboard menu styling */
 #dashboard-menu {
     position: fixed;
     height: 100%;
+    width: 250px; /* Set a default width */
+    overflow-y: auto; /* Add scroll for long menus */
 }
 
 @media screen and (max-width: 991px) {
@@ -63,7 +66,6 @@ input[type=number] {
     #main-content {
         margin-top: 60px;
     }
-
 }
 
 
