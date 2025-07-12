@@ -1,50 +1,43 @@
-
 :root{
-    --teal:#2eccac;
-    --teal_hover:#279e8c;
+  --teal: #2ec1ac;
+  --teal_hover: #279e8c;
 }
 
-
-* {
-    font-family: 'Poppins', sans-serif;
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.h-font{
+  font-family: 'Merienda', cursive;
 }
 
-.h-font {
-    font-family: 'Merienda', cursive;
-}
-
-/* Chrome, Safari, Edge, Opera  (hide input type number arrows)*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-/* Firefox */
 input[type=number] {
-    /* -moz-appearance: textfield; */
-    appearance: textfield;
-    -moz-appearance: textfield;
+  -moz-appearance: textfield;
 }
 
-.custom-bg {
-    background-color: var(--teal);
-    border: 1px solid var(--teal);
+.custom-bg{
+  background-color: var(--teal);
+  border: 1px solid var(--teal);
 }
-
-.custom-bg:hover {
-    background-color: var(--teal_hover);
-    border-color: var(--teal_hover);
-}
-
-.availability-form {
-    margin-top: -50px;
-    z-index: 2;
-    position: relative;
+.custom-bg:hover{
+  background-color: var(--teal_hover);
+  border-color: var(--teal_hover);
 }
 
 .h-line{
-    width :150px;
-    margin : 0 auto;
-    height : 1.7px
+  width: 150px;
+  margin: 0 auto;
+  height: 1.7px;
+}
+
+.custom-alert{
+  position: fixed;
+  top: 80px;
+  right: 25px;
+  z-index: 1111;
 }
