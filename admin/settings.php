@@ -231,7 +231,7 @@
 
         <!-- Management Team modal -->
 
-        <!-- <div class="modal fade" id="team-s" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal fade" id="team-s" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog">
             <form id="team_s_form">
               <div class="modal-content">
@@ -255,7 +255,7 @@
               </div>
             </form>
           </div>
-        </div> -->
+        </div>
 
 
       </div>
