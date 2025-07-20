@@ -21,21 +21,20 @@
     <h2 class="fw-bold h-font text-center">ABOUT US</h2>
     <div class="h-line bg-dark"></div>
     <p class="text-center mt-3">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Temporibus incidunt odio quos <br> dolore commodi repudiandae 
-      tenetur consequuntur et similique asperiores.
+      Welcome to Mirissa 360, where luxury and comfort meet. Located in the heart of Mirissa, we offer a perfect blend of relaxation and adventure for all travelers.
+            Whether you're here for business, romance, or a family vacation, we provide spacious rooms, exquisite dining, and world-class facilities.
+            Our dedicated team is committed to delivering exceptional service, ensuring every guest feels like family.
+            At Mirissa 360, your stay will be a memorable experience from start to finish.
     </p>
   </div>
 
   <div class="container">
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-6 col-md-5 mb-4 order-lg-1 order-md-1 order-2">
-        <h3 class="mb-3">Lorem ipsum dolor sit</h3>
+        <h3 class="mb-3">A Message from General Manager</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Omnis minima sapiente aliquam sed officia nostrum fuga?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Omnis minima sapiente aliquam sed officia nostrum fuga?
+          At Mirissa 360, we are committed to delivering exceptional experiences for every guest. As GM, my goal is to create a welcoming environment where luxury, comfort, and personalized service are at the heart of everything we do.
+                    We take pride in offering a memorable stay, whether you're here for business, leisure, or a special getaway.
         </p>
       </div>
       <div class="col-lg-5 col-md-5 mb-4 order-lg-2 order-md-2 order-1">
