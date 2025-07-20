@@ -68,10 +68,10 @@
           <td>
             <b>Room:</b> $data[room_name]
             <br>
-            <b>Price:</b> ₹$data[price]
+            <b>Price:</b> LKR$data[price]
           </td>
           <td>
-            <b>Amount:</b> ₹$data[trans_amt]
+            <b>Amount:</b> LKR$data[trans_amt]
             <br>
             <b>Date:</b> $date
           </td>
