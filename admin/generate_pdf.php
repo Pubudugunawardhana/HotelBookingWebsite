@@ -52,7 +52,7 @@
       </tr>
       <tr>
         <td>Room Name: $data[room_name]</td>
-        <td>Cost: ₹$data[price] per night</td>
+        <td>Cost: LKR$data[price] per night</td>
       </tr>
       <tr>
         <td>Check-in: $checkin</td>
@@ -65,14 +65,14 @@
       $refund = ($data['refund']) ? "Amount Refunded" : "Not Yet Refunded";
 
       $table_data.="<tr>
-        <td>Amount Paid: ₹$data[trans_amt]</td>
+        <td>Amount Paid: LKR$data[trans_amt]</td>
         <td>Refund: $refund</td>
       </tr>";
     }
     else if($data['booking_status']=='payment failed')
     {
       $table_data.="<tr>
-        <td>Transaction Amount: ₹$data[trans_amt]</td>
+        <td>Transaction Amount: LKR$data[trans_amt]</td>
         <td>Failure Response: $data[trans_resp_msg]</td>
       </tr>";
     }
@@ -80,7 +80,7 @@
     {
       $table_data.="<tr>
         <td>Room Number: $data[room_no]</td>
-        <td>Amount Paid: ₹$data[trans_amt]</td>
+        <td>Amount Paid: LKR$data[trans_amt]</td>
       </tr>";
     }
 
