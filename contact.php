@@ -15,9 +15,10 @@
     <h2 class="fw-bold h-font text-center">CONTACT US</h2>
     <div class="h-line bg-dark"></div>
     <p class="text-center mt-3">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Temporibus incidunt odio quos <br> dolore commodi repudiandae 
-      tenetur consequuntur et similique asperiores.
+      We’d love to hear from you!
+        Whether you have questions about your booking, need travel assistance, or simply want to learn more about Mirissa 360, our team is here to help. 
+        Feel free to reach out to us by phone, email, or through the contact form below.
+        We are committed to providing quick and friendly support to ensure your experience with us is smooth and memorable.
     </p>
   </div>
 
