@@ -72,7 +72,7 @@
     </div>
   </div>
 
-  <h3 class="my-5 fw-bold h-font text-center">MANAGEMENT TEAM</h3>
+  <!-- <h3 class="my-5 fw-bold h-font text-center">MANAGEMENT TEAM</h3>
 
   <div class="container px-4">
     <div class="swiper mySwiper">
@@ -93,7 +93,7 @@
       </div>
       <div class="swiper-pagination"></div>
     </div>
-  </div>
+  </div> -->
 
 
   <?php require('inc/footer.php'); ?>
