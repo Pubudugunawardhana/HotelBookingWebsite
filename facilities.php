@@ -22,9 +22,10 @@
     <h2 class="fw-bold h-font text-center">OUR FACILITIES</h2>
     <div class="h-line bg-dark"></div>
     <p class="text-center mt-3">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Temporibus incidunt odio quos <br> dolore commodi repudiandae 
-      tenetur consequuntur et similique asperiores.
+      At Mirissa 360, we are committed to providing an unforgettable stay with world-class amenities and thoughtful services.
+            Whether you’re traveling for business or leisure, our facilities are designed to offer comfort, convenience, and relaxation at every moment.
+            Enjoy modern rooms, fine dining options, relaxing spa treatments, a fully equipped fitness center, and seamless business services.
+            Experience the perfect blend of luxury and hospitality — all under one roof.
     </p>
   </div>
 
