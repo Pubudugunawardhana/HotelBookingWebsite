@@ -51,7 +51,7 @@
             <b>Date:</b> $date
           </td>
           <td>
-            <b>₹$data[trans_amt]</b> 
+            <b>LKR$data[trans_amt]</b> 
           </td>
           <td>
             <button type='button' onclick='refund_booking($data[booking_id])' class='btn btn-success btn-sm fw-bold shadow-none'>
